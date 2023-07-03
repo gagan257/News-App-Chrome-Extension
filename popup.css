@@ -1,0 +1,22 @@
+body {
+    min-width: 500px;
+    min-height: 500px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#news-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#news-list li {
+    margin-bottom: 10px;
+}
+
+#news-list a {
+    text-decoration: none;
+}
