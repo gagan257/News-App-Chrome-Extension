@@ -1,22 +1,61 @@
 body {
-    min-width: 500px;
-    min-height: 500px;
+  min-width: 500px;
+  min-height: 500px;
 }
 
 .container {
-    text-align: center;
-    margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 #news-list {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 #news-list li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 #news-list a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  /* Set your desired background color */
+  background-color: #f2f2f2;
+  /* Add some padding and margin for spacing */
+  padding: 10px;
+  margin-bottom: 10px;
+  /* Add a border radius for rounded corners */
+  border-radius: 5px;
+  /* Add box-shadow for a subtle depth effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Add a transition for smooth hover effects */
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  /* Change the background color on hover */
+  background-color: #e0e0e0;
+  /* Add a box shadow to create a lifted effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  /* Style the links within the <li> tags */
+  color: #333333;
+  text-decoration: none;
+}
+
+a:hover {
+  /* Change the link color on hover */
+  color: #666666;
+  text-decoration: underline;
 }
