@@ -31,3 +31,14 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     }
   });
+
+
+// Example: Send a notification after a delay
+setTimeout(() => {
+  chrome.notifications.create({
+    type: 'basic',
+    iconUrl: 'path/to/icon.png',
+    title: 'Notification Title',
+    message: 'Notification Message'
+  });
+}, 5000); // 5000 milliseconds = 5 seconds
